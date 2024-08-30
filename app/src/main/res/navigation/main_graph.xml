@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/horoscopeFragment"
-        android:name="com.marvic.horoscoapp.HoroscopeFragment"
+        android:name="com.marvic.horoscoapp.ui.horoscope.HoroscopeFragment"
         android:label="fragment_horoscope"
         tools:layout="@layout/fragment_horoscope" />
     <fragment
         android:id="@+id/luckFragment"
-        android:name="com.marvic.horoscoapp.LuckFragment"
+        android:name="com.marvic.horoscoapp.ui.luck.LuckFragment"
         android:label="fragment_luck"
         tools:layout="@layout/fragment_luck" />
     <fragment
         android:id="@+id/palmistryFragment"
-        android:name="com.marvic.horoscoapp.PalmistryFragment"
+        android:name="com.marvic.horoscoapp.ui.palmistry.PalmistryFragment"
         android:label="fragment_palmistry"
         tools:layout="@layout/fragment_palmistry" />
 </navigation>
